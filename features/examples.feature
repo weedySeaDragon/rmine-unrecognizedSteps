@@ -10,7 +10,7 @@ Feature: Examples of syntax not recognized
 #   Then I should see "Hello there"
 #   And I should not see "Howdy"
 #
-Scenario: I should see with parameter types is not recognized
+Scenario: I should see steps that use parameter types are not recognized
   Given I am on the home page
   Then I should see "Hello there"
   And I should not see "Howdy"
